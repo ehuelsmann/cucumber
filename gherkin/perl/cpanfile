@@ -7,7 +7,6 @@ on 'test' => sub {
     requires "Path::Class";
     requires "Test::Differences";
     requires "Test::Exception";
-    requires "Test::More";
     requires "Test2::V0";
 };
 
