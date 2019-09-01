@@ -3,10 +3,12 @@ requires "Class::XSAccessor";
 requires "IO::Scalar";
 
 on 'test' => sub {
+    requires "Find::File::Rule";
     requires "Path::Class";
     requires "Test::Differences";
     requires "Test::Exception";
     requires "Test::More";
+    requires "Test2::V0";
 };
 
 on 'develop' => sub {
